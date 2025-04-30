@@ -34,7 +34,7 @@ jobs:
           npm install
           npm run build
 
-      - name: Configure AWS credentials
+      - name: Configure AWS credentials to run tasks
         uses: aws-actions/configure-aws-credentials@v1
         with:
           aws-access-key-id: ${{ env.AWS_ACCESS_KEY_ID }}
