@@ -1,6 +1,6 @@
 ### Provider
-region             = "us-east-1"
-availability_zones = ["us-east-1a", "us-east-1b"]
+region             = "eu-west-1"
+availability_zones = ["eu-west-1a", "eu-west-1b"]
 environment  = "staging"
 
 
